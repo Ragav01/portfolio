@@ -38,12 +38,13 @@ export const Navabar = () => {
             <a href="/" className='h-10 px-6 flex justify-center items-center text-white font-medium tracking-tight bg-black hover:bg-black/80  rounded-full'>Contact Me</a>
           </div>
           {/* Menu Mobile */}
-          <div className={` lg:hidden absolute top-14 w-full h-[80vh] bg-white rounded-xl ${!expendMenu && 'opacity-0'}`}>
+          <div className={` lg:hidden absolute top-14 w-full h-auto py-5 px-3 bg-black rounded-xl ${!expendMenu && 'opacity-0'}`}>
           {navLinks.map((item,key)=>{
               return(
-                <a key={key} href='/' className='block p-5 text-base text-gray-500'>{item.title}</a>
+                <a key={key} href='/' className='block p-3 py-4 text-lg font-medium text-gray-400'>{item.title}</a>
               )
             })}
+            <a href="/" className='h-12 mx-3 mt-4 px-6 flex justify-center items-center text-black font-semibold tracking-tight bg-white rounded-full'>Contact Me</a>
           </div>
       </nav>
     </header>

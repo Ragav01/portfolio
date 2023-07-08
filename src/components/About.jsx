@@ -32,27 +32,27 @@ export const About = () => {
             <h1 className='text-3xl md:text-5xl text-center font-semibold tracking-tighter mb-12'>My Career So Far</h1>
             <div className='grid grid-cols-2 lg:grid-cols-4 gap-4'>
                 {/* Experience */}
-                <div className='relative overflow-hidden flex flex-col justify-center items-center space-y-2 bg-black/50  backdrop-blur-2xl py-6 lg:py-12 border-[2px] border-white/10 rounded-2xl'>
+                <div className='relative overflow-hidden text-center flex flex-col justify-center items-center space-y-2 bg-black/50  backdrop-blur-2xl py-6 lg:py-12 border-[2px] border-white/10 rounded-2xl'>
                     <h1 className='text-3xl lg:text-5xl font-medium'>8 <span className='text-3xl font-normal'>years</span></h1>
                     <p className='text-lg lg:text-xl text-gray-500'>experience</p>      
                 </div>
                 {/* Clients */}
-                <div className='flex flex-col justify-center items-center space-y-2 bg-black/50  backdrop-blur-2xl py-6 lg:py-12 border-[2px] border-white/10 rounded-2xl'>
+                <div className='flex flex-col justify-center items-center text-center space-y-2 bg-black/50  backdrop-blur-2xl py-6 lg:py-12 border-[2px] border-white/10 rounded-2xl'>
                     <h1 className='text-3xl lg:text-5xl font-medium'>50+</h1>
                     <p className='text-lg lg:text-xl text-gray-500'>happy clients</p>      
                 </div>
                 {/* projects */}
-                <div className='lg:col-start-1 lg:row-start-2 flex flex-col justify-center items-center space-y-2 bg-black/50  backdrop-blur-2xl py-6 lg:py-12 border-[2px] border-white/10 rounded-2xl'>
-                    <h1 className='text-3xl lg:text-5xl font-medium'>80+<span className='text-3xl font-normal'>years</span></h1>
+                <div className='lg:col-start-1 lg:row-start-2 text-center flex flex-col justify-center items-center space-y-2 bg-black/50  backdrop-blur-2xl py-6 lg:py-12 border-[2px] border-white/10 rounded-2xl'>
+                    <h1 className='text-3xl lg:text-5xl font-medium'>80+</h1>
                     <p className='text-lg lg:text-xl text-gray-500'>successful projects</p>      
                 </div>
                 {/* Passion */}
-                <div className='lg:col-start-2 lg:row-start-2 flex flex-col justify-center items-center space-y-2 bg-black/50  backdrop-blur-2xl py-6 lg:py-12 border-[2px] border-white/10 rounded-2xl'>
+                <div className='lg:col-start-2 lg:row-start-2 text-center flex flex-col justify-center items-center space-y-2 bg-black/50  backdrop-blur-2xl py-6 lg:py-12 border-[2px] border-white/10 rounded-2xl'>
                     <h1 className='text-3xl lg:text-5xl font-medium'>100%</h1>
                     <p className='text-lg lg:text-xl text-gray-500'>passion</p>      
                 </div>
                 {/* About */}
-                <div className='col-span-2 lg:row-span-4 lg:col-start-3 lg:row-start-1 space-y-5 bg-black/50 backdrop-blur-2xl p-5 lg:p-14 border-[2px] border-white/10 rounded-2xl'>
+                <div className='col-span-2 lg:row-span-4 lg:col-start-3 lg:row-start-1 space-y-5 bg-black/50 backdrop-blur-2xl p-3 lg:p-14 border-[2px] border-white/10 rounded-2xl'>
                     <h2 className='text-3xl lg:text-4xl'>Working at the intersection of design and code.</h2>
                     <div className='space-y-4 text-lg text-gray-500'>
                         <p>Hi there! I'm Ragavarman, a Product Designer with experience building consumer-facing and B2B SaaS products in fast-paced environments. I aspire to build products that contribute to a more harmonious and compassionate world</p>
@@ -62,7 +62,7 @@ export const About = () => {
                     </div>
                 </div>
                 {/* Areas of expertise */}
-                <div className='col-span-2 lg:row-span-2 row-start-4 lg:row-start-3 space-y-5 bg-black/50 backdrop-blur-2xl p-5 lg:p-14 border-[2px] border-white/10 rounded-2xl'>
+                <div className='col-span-2 lg:row-span-2 row-start-4 lg:row-start-3 space-y-5 bg-black/50 backdrop-blur-2xl p-3 lg:p-14 border-[2px] border-white/10 rounded-2xl'>
                     <h2 className='text-3xl lg:text-4xl'>Areas of expertise</h2>
                     <div className='flex flex-wrap gap-2'>
                         {areaExpertise.map((item,key)=>{
