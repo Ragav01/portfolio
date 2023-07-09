@@ -1,0 +1,19 @@
+<svg width="187" height="184" viewBox="0 0 187 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_360_455)">
+<rect x="10" y="6" width="147" height="144" rx="24" fill="#2AD168" shape-rendering="crispEdges"/>
+<path d="M50.7114 39L40 57.3082L50.7114 75.0616L60.8591 57.3082H113.435L124 39H50.7114Z" fill="white"/>
+<path d="M77.2081 83.9384H98.0671L108.312 66.1849H65.9329L45.0738 102.247L55.7852 120L77.2081 83.9384Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_360_455" x="0" y="0" width="187" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="10" dy="14"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.13 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_360_455"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_360_455" result="shape"/>
+</filter>
+</defs>
+</svg>

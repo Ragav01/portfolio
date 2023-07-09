@@ -3,6 +3,7 @@ import { Navabar } from "./components/Navabar";
 import { Home } from "./pages/Home";
 import { FrontDesk } from "./pages/FrontDesk";
 import { ErrorPage } from "./pages/ErrorPage";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/frontdesk" element={<FrontDesk/>} />
           <Route path="*" element={<ErrorPage/>} />
         </Routes>
+        <Footer/>
       </Router>
     </>
   );
