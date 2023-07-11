@@ -3,7 +3,6 @@ import { Hero } from '../components/Hero'
 import { Works } from '../components/Works'
 import { Process } from '../components/Process'
 import { About } from '../components/About'
-import { Footer } from '../components/Footer'
 
 export const Home = () => {
   return (
@@ -12,7 +11,6 @@ export const Home = () => {
       <Works/>
       <About/>
       <Process/>
-      <Footer/>
     </>
   )
 }

@@ -9,12 +9,12 @@
         @apply bg-[#F7F7F8]  font-plusJakarta
     }
     section{
-        @apply max-w-7xl mx-auto px-3 md:px-0 py-10 md:py-20 
+        @apply max-w-screen-2xl mx-auto px-3 md:px-0 py-10 md:py-20 
     }
 }
 @layer utilities {
     .works-container{
-        @apply w-full relative bg-slate-300 h-[420px] md:h-[680px] rounded-[28px] md:rounded-[38px] overflow-hidden
+        @apply w-full relative bg-slate-300 h-[420px] md:h-[780px] rounded-[28px] md:rounded-[38px] overflow-hidden
     }
     .overlay{
         @apply absolute bg-black/10 h-full w-full transition-all z-10
