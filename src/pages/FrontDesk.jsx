@@ -14,7 +14,7 @@ import img4 from '../assets/front-desk/image-4.webp'
 export const FrontDesk = () => {
   return (
     <>
-      <div className='max-w-screen-2xl md:mx-auto mx-3 md:mt-10 p-4 md:p-10 bg-gray-200 rounded-xl md:rounded-3xl'>
+      <div className='max-w-7xl md:mx-auto mx-3 md:mt-10 p-4 md:p-10 bg-gray-200 rounded-xl md:rounded-3xl'>
         <img  src={cover} alt="cover-img" />
       </div>
       {/* Overview */}
@@ -66,7 +66,7 @@ export const FrontDesk = () => {
         </div>
       </section>
       {/* Wireframe */}
-      <div className='bg-gray-900 max-w-screen-2xl md:mx-auto mx-3 rounded-xl md:rounded-3xl'>
+      <div className='bg-gray-900 max-w-7xl md:mx-auto mx-3 rounded-xl md:rounded-3xl'>
         <img src={wireframe} alt="wireframe" />
       </div>
       {/* Brand and Style-guide */}
@@ -107,7 +107,7 @@ export const FrontDesk = () => {
        </div>
       </section>
       {/* Components */}
-      <div className='max-w-screen-2xl mx-auto'>
+      <div className='max-w-7xl mx-auto'>
         <div className='bg-white p-5 md:p-12 rounded-3xl'>
           <h2 className='text-xl md:text-4xl tracking-tight font-semibold pb-5 md:pb-10'>40+ Components</h2>
           <img src={components} alt="..." />

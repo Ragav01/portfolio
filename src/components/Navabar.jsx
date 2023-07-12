@@ -13,7 +13,7 @@ export const Navabar = () => {
   ]
   const [expendMenu,setexpendMenu] = useState(false)
   return (
-    <header className='max-w-screen-2xl mx-auto px-3 md:px-0 pt-0 md:pt-3'>
+    <header className='max-w-7xl mx-auto px-3 md:px-0 pt-0 md:pt-3'>
       <nav className='relative z-20  text-black flex justify-between items-center py-4'>
           {/* logo */}
           <Link to='/' class="flex items-center gap-x-3">

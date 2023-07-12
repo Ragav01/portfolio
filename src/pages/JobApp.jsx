@@ -11,7 +11,7 @@ import hiring from '../assets/ligns/hiring.svg'
 export const JobApp = () => {
   return (
     <>
-      <div className='max-w-screen-2xl md:mx-auto mx-3 md:mt-10 p-4 md:p-10 pb-0 md:pb-0 bg-[#0D3562] rounded-xl md:rounded-3xl'>
+      <div className='max-w-7xl md:mx-auto mx-3 md:mt-10 p-4 md:p-10 pb-0 md:pb-0 bg-[#0D3562] rounded-xl md:rounded-3xl'>
           <img  src={cover} alt="cover-img" />
       </div>
       {/* Overview */}
