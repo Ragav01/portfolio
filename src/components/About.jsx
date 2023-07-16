@@ -1,4 +1,4 @@
-import React from 'react'
+import signature from '../assets/signature.svg'
 
 export const About = () => {
     const areaExpertise = [
@@ -18,6 +18,7 @@ export const About = () => {
         {'title':'Figma'},
         {'title':'Adobe Suite'},
         {'title':'HTML / CSS'},
+        {'title':'SCSS'},
         {'title':'Tailwind CSS'},
         {'title':'Boostrap'},
         {'title':'React js'}
@@ -60,6 +61,7 @@ export const About = () => {
                         <p>I like expanding and adapting my thought, skillset and processes to the changing problems and needs in the world around us. I thrive in ambitious, pro-active teams that value ethical product building and cultures that facilitate belonging.</p>
                         <p>Excited for the future, I’m eager to discover new opportunities to create memorable experiences.</p>
                     </div>
+                    <img src={signature} className='pt-5' alt="" />
                 </div>
                 {/* Areas of expertise */}
                 <div className='col-span-2 lg:row-span-2 row-start-4 lg:row-start-3 space-y-5 bg-black/50 backdrop-blur-2xl p-3 lg:p-14 border-[2px] border-white/10 rounded-2xl'>

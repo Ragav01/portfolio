@@ -33,19 +33,19 @@ export const Navabar = () => {
           <div  className="hidden lg:flex items-center gap-8">
             {navLinks.map((item,key)=>{
               return(
-                <Link key={key} to={item.link} className='text-base uppercase font-medium tracking-tight text-gray-500 hover:text-black'>{item.title}</Link>
+                <Link key={key} to={item.link} className='text-base font-medium tracking-tight text-gray-500 hover:text-black'>{item.title}</Link>
               )
             })}
-            <Link to="/" className='h-11 px-6 flex justify-center items-center text-white uppercase font-medium tracking-tight bg-black hover:bg-black/80  rounded-full'>Contact Me</Link>
+            <Link to="/" className='h-11 px-6 flex justify-center items-center text-white font-medium tracking-tight bg-black hover:bg-black/80  rounded-full'>Contact Me</Link>
           </div>
           {/* Menu Mobile */}
           <div className={` lg:hidden absolute top-14 w-full h-auto py-5 px-3 bg-black rounded-xl ${!expendMenu && 'opacity-0'}`}>
           {navLinks.map((item,key)=>{
               return(
-                <Link key={key} to={item.link} className='block p-3 py-4 text-lg uppercase font-medium  text-gray-400'>{item.title}</Link>
+                <Link key={key} to={item.link} className='block p-3 py-4 text-lg font-medium  text-gray-400'>{item.title}</Link>
               )
             })}
-            <Link to="/" className='h-12 mx-3 mt-4 px-6 flex justify-center items-center text-black uppercase font-semibold tracking-tight bg-white rounded-full'>Contact Me</Link>
+            <Link to="/" className='h-12 mx-3 mt-4 px-6 flex justify-center items-center text-black font-semibold tracking-tight bg-white rounded-full'>Contact Me</Link>
           </div>
       </nav>
     </header>

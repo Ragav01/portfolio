@@ -12,6 +12,7 @@ import img3 from '../assets/front-desk/image-3.webp'
 import img4 from '../assets/front-desk/image-4.webp'
 
 export const FrontDesk = () => {
+  window.scrollTo(0, 0)
   return (
     <>
       <div className='max-w-7xl md:mx-auto mx-3 md:mt-10 p-4 md:p-10 bg-gray-200 rounded-xl md:rounded-3xl'>

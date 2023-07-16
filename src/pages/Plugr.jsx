@@ -4,8 +4,14 @@ import homeWireframe from '../assets/plugr/Home.svg'
 import statisticWireframe from '../assets/plugr/Statistic.svg'
 import addMemberWireframe from '../assets/plugr/Members_Add.svg'
 import Wireframe from '../assets/plugr/WireframeLightFill.webp'
+import typography from '../assets/plugr/typography.svg'
+import colors from '../assets/plugr/Colors.svg'
+import branding from '../assets/plugr/brand.svg'
+import elements from '../assets/plugr/elements.svg'
+import statusbar from '../assets/plugr/StatusBar.svg'
 
 export const Plugr = () => {
+  // window.scrollTo(0, 0)
   return (
     <>
       <div className='max-w-7xl md:mx-auto mx-3 md:mt-10 p-4 md:p-10 bg-[#30304C] rounded-xl md:rounded-3xl'>
@@ -55,17 +61,54 @@ export const Plugr = () => {
           <p className='text-gray-700 text-lg leading-8'>This is where the use of developer APIs comes into the picture. APIs or Application Programming Interfaces, in the most general sense, are the lines of code that allow various software components to talk to one another to allow various tasks or actions to happen. Numerous companies now offer APIs to developers for their smart home products. Using these APIs, our developers could build a third party service which would interact with all the devices of various brands.</p>
         </div>
       </section>
-      {/* Wireframe */}
-      <div className='bg-[#121212]'>
+      <div className='bg-[#030202] text-white'>
+        {/* Wireframe */}
         <section>
-          <div className='flex justify-between pb-8 md:pb-20'>
-            <img src={homeWireframe} alt="" />
-            <img src={statisticWireframe} alt="" />
-            <img src={addMemberWireframe} alt="" />
+          <div className='flex justify-between gap-5 pb-8 md:pb-20'>
+            <div className='w-1/3'><img src={homeWireframe} alt="" /></div>
+            <div className='w-1/3'><img src={statisticWireframe} alt="" /></div>
+            <div className='w-1/3'><img src={addMemberWireframe} alt="" /></div>
           </div>
           <img src={Wireframe} alt="" />
         </section>
+        {/* Typography */}
+        <section className='space-y-5 md:space-y-10'>
+          <h2 className='text-4xl tracking-tight font-semibold'>Typography</h2>
+          <img src={typography} alt="typography" />
+        </section>
+        {/* Colors */}
+        <section className='space-y-5 md:space-y-10'>
+          <h2 className='text-4xl tracking-tight font-semibold'>Colors</h2>
+          <img src={colors} alt="typography" />
+        </section>
+        {/* Branding */}
+        <section className='space-y-5 md:space-y-10'>
+          <h2 className='text-4xl tracking-tight font-semibold'>Branding</h2>
+          <img src={branding} alt="typography" />
+        </section>
+        {/* Elements */}
+        <section className='space-y-5 md:space-y-10'>
+          <h2 className='text-4xl tracking-tight font-semibold'>UI 
+          Elements</h2>
+          <img src={elements} alt="typography" />
+        </section>
       </div>
+      {/* Prototype */}
+      <section className='space-y-5 md:space-y-10'>
+        <h2 className='text-4xl tracking-tight font-semibold text-center'>Prototype</h2>
+        <div className='relative w-[327px] h-[714px] mx-auto rounded-3xl overflow-hidden'>
+          <div className='bg-[#1e1e2c] '>
+            <img src={statusbar} alt="" />
+          </div>
+          <iframe src="https://ragav01.github.io/plugr/"
+          className='w-full h-[666px] absolute bottom-0 bg-[#1e1e2c]'
+          frameborder="0"
+          >
+          </iframe>
+        </div>
+      </section>
+        
     </>
   )
 }
+

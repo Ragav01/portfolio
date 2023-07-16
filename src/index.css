@@ -14,7 +14,7 @@
 }
 @layer utilities {
     .works-container{
-        @apply w-full relative bg-slate-300 h-[420px] md:h-[680px] rounded-[28px] md:rounded-[38px] overflow-hidden
+        @apply w-full relative h-[420px] md:h-[680px] rounded-[28px] md:rounded-[38px] overflow-hidden
     }
     .overlay{
         @apply absolute bg-black/10 h-full w-full transition-all z-10

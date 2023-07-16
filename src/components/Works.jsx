@@ -1,9 +1,10 @@
 import arrowRightUp from '../assets/arrow-right-up.svg'
-import frontDeskCover from '../assets/front-desk/all-screen.webp'
+import frontDeskCover from '../assets/front-desk/front-desk-cover-2.webp'
 import saiCover from '../assets/sai/sai-cover.webp'
 import lignCover from '../assets/ligns/ligns-cover.webp'
 import plugrCover from '../assets/plugr/plugr-cover.webp'
-import testguruCover from '../assets/testguru/thumbnail.webp'
+import fintechCover from '../assets/testguru/fintech-thumbnail.png'
+import fittercover from '../assets/fitter/fitter-cover.png'
 import { Link } from 'react-router-dom'
 
 export const Works = () => {
@@ -11,29 +12,29 @@ export const Works = () => {
     <section>
         <h2 className='text-3xl md:text-5xl font-semibold tracking-tighter'>Selected Projects</h2>
         <div className='grid grid-cols-12 gap-4 mt-5 md:mt-10'>
-            {/* testguru */}
-            <div className='col-span-12 works-container group'>
-                <Link to={'/testguru'}>
+            {/* Front Desk */}
+            <div className='col-span-12 bg-[#D3DBEC] works-container group'>
+                <Link to="/frontdesk">
                     <div className='overlay  opacity-0 group-hover:opacity-100'></div>
                     <div className='tag'>UI/UX Design</div>
                     <div className='card card-lg right-2 md:right-5'>
                         <div className='flex justify-between'>
                             <span className='chips'>Front Desk</span>
                             <span className='chips hidden md:block'>2023</span>
-                            <Link to={'/testguru'} className='md:hidden caseBtn'>
+                            <Link to='/frontdesk' className='md:hidden caseBtn'>
                                 See case
                                 <img className='' src={arrowRightUp} alt="" />
                             </Link>
                         </div>
                         <div className='hidden md:flex items-end justify-between'>
                             <h3 className=''>Front Desk - Automates the process of attending to guest</h3>
-                            <Link to={'/testguru'} className='caseBtn'>
+                            <a href="/" className='caseBtn'>
                                 See case
                                 <img className='' src={arrowRightUp} alt="" />
-                            </Link>
+                            </a>
                         </div>
                     </div>
-                    <img src={testguruCover} class='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'  alt='' />
+                    <img src={frontDeskCover} class='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'  alt='' />
                 </Link>
             </div>
             {/* Saigloble */}
@@ -78,29 +79,29 @@ export const Works = () => {
                     <img src={lignCover} class='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'  alt='' />
                 </Link>
             </div>
-            {/* Front Desk */}
+            {/* fintech */}
             <div className='col-span-12 works-container group'>
-                <Link to="/frontdesk">
+                <Link to={'/testguru'}>
                     <div className='overlay  opacity-0 group-hover:opacity-100'></div>
                     <div className='tag'>UI/UX Design</div>
                     <div className='card card-lg right-2 md:right-5'>
                         <div className='flex justify-between'>
                             <span className='chips'>Front Desk</span>
                             <span className='chips hidden md:block'>2023</span>
-                            <Link to='/frontdesk' className='md:hidden caseBtn'>
+                            <Link to={'/testguru'} className='md:hidden caseBtn'>
                                 See case
                                 <img className='' src={arrowRightUp} alt="" />
                             </Link>
                         </div>
                         <div className='hidden md:flex items-end justify-between'>
                             <h3 className=''>Front Desk - Automates the process of attending to guest</h3>
-                            <a href="/" className='caseBtn'>
+                            <Link to={'/testguru'} className='caseBtn'>
                                 See case
                                 <img className='' src={arrowRightUp} alt="" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
-                    <img src={frontDeskCover} class='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'  alt='' />
+                    <img src={fintechCover} class='p-10 bg-slate-200 group-hover:scale-110 transition-all duration-300'  alt='' />
                 </Link>
             </div>
             {/* Plugr */}
@@ -120,30 +121,30 @@ export const Works = () => {
                     <img src={plugrCover} class='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'  alt='' />
                 </Link>
             </div>
-            {/* Saigloble */}
-            <div className='col-span-12 md:col-span-8 works-container group'>
-                <a href="/">
+            {/* Fitter */}
+            <div className='col-span-12 md:col-span-8 bg-[#D3DBEC] works-container group'>
+                <Link to={'/fitter'}>
                     <div className='overlay  opacity-0 group-hover:opacity-100'></div>
                     <div className='tag'>UI/UX Design</div>
-                    <div className='card card-lg left-2 md:left-5'>
+                    <div className='card card-lg right-2 md:right-5'>
                         <div className='flex justify-between'>
                             <span className='chips'>Front Desk</span>
                             <span className='chips hidden md:block'>2023</span>
-                            <a href="/" className='md:hidden caseBtn'>
+                            <Link to={'/fitter'} className='md:hidden caseBtn'>
                                 See case
                                 <img className='' src={arrowRightUp} alt="" />
-                            </a>
+                            </Link>
                         </div>
                         <div className='hidden md:flex items-end justify-between'>
                             <h3 className=''>Front Desk - Automates the process of attending to guest</h3>
-                            <a href="/" className='caseBtn'>
+                            <Link to={'/fitter'} className='caseBtn'>
                                 See case
                                 <img className='' src={arrowRightUp} alt="" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
-                    <img src={frontDeskCover} class='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'  alt='' />
-                </a>
+                    <img src={fittercover} class='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'  alt='' />
+                </Link>
             </div>
         </div>
     </section>

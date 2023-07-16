@@ -9,6 +9,7 @@ import allScreen from '../assets/ligns/all-screen.svg'
 import hiring from '../assets/ligns/hiring.svg'
 
 export const JobApp = () => {
+  window.scrollTo(0, 0)
   return (
     <>
       <div className='max-w-7xl md:mx-auto mx-3 md:mt-10 p-4 md:p-10 pb-0 md:pb-0 bg-[#0D3562] rounded-xl md:rounded-3xl'>

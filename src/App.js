@@ -9,6 +9,7 @@ import { Works } from "./components/Works";
 import { Process } from "./components/Process";
 import { JobApp } from "./pages/JobApp";
 import { Plugr } from "./pages/Plugr";
+import { Fitter } from "./pages/Fitter";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/frontdesk" element={<FrontDesk/>} />
           <Route path="/ligns" element={<JobApp/>} />
           <Route path="/plugr" element={<Plugr/>} />
+          <Route path="/fitter" element={<Fitter/>} />
           <Route path="*" element={<ErrorPage/>} />
         </Routes>
         <Footer/>
